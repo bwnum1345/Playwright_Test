@@ -4,7 +4,7 @@ module.exports = defineConfig({
   testDir: './tests',
   use: {
     baseURL: 'https://ui.rexjones2.com',
-    browserName: 'chromium',
+    browserName: 'firefox',
     trace: 'retain-on-failure',
   },
 });
